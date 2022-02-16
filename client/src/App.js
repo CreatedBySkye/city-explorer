@@ -61,7 +61,7 @@ this.fetchWeather();
     
     try {
       
-      const dailyForecast = await axios.get("http://localhost:3002/weather",
+      const dailyForecast = await axios.get(process.env.REACT_APP_WEATHER_ENDPOINT,
       {
         params: {
         
