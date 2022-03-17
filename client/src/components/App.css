@@ -75,7 +75,8 @@
   
 
   #alert {
-      box-shadow: 20px 15px 15px 15px 15px rgb(225, 191, 238);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+      box-shadow: 20px 15px 15px 15px 15px rgb(225, 191, 238);  
+      filter: drop-shadow(-34px 25px 40px black);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
       font-size: 10px;
       font-family: 'Press Start 2P', cursive;
       text-align: center;
@@ -90,6 +91,8 @@
   }
 
   #error-button {
+    position: absolute;
+    left: -10px;
     width: 340px;
     height: 60px;
    color: #4b0170;

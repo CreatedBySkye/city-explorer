@@ -40,7 +40,12 @@ header, body, footer {
 }
 
 #alert {
+  width: 970px;
+  height: 450px;
+  position: absolute;
+  left: 290px;
    box-shadow: 20px 15px 15px 15px 65px rgb(225, 191, 238);
   background-color:rgb(8, 3, 46);
+  filter: drop-shadow(-30px, 15px, 46px black);
 }
 
