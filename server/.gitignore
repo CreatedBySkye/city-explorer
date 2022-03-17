@@ -155,4 +155,4 @@ install_manifest.txt
 *.pyc
 __pycache__
 .DS_Store
-*~
+*~.env

@@ -12,21 +12,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 #header {
-
+    filter: drop-shadow(5px 12px 4px rgb(72, 15, 159));
     position: absolute; 
-    left: 55px;
-    top: -80px;
-    margin-top: 140px;
-    font-size: 130px;
+    left: 128px;
+    top: 47px;
+    font-size: 80px;
+    font-weight: 900;
     opacity: 100%;
-    font-family: 'Leckerli One', cursive;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    background-image: url(./assets/sunset.jpg);
-            background-repeat: repeat;
-            background-size: contain;
+    font-family: 'Audiowide', cursive;
+    
+    background-image: url(https://i.ibb.co/GFygYLM/ernest-brillo-Qi8-Cvons-Yn-M-unsplash.jpg);
+           
+            background-size: 50%;
             -webkit-background-clip: text;
-            background-position-y: 30px;
+          
             -webkit-text-fill-color: transparent;
            
         
@@ -34,24 +41,26 @@
 }
 
 .header {
+  filter: drop-shadow(-12px 8px 5px rgb(246, 124, 17));
   position: absolute; 
-  left: 185px;
+  left: 345px;
   top: 10px;
-  margin-top: 30px;
   border-radius: 30px;
   background-image: url(./assets/cityscape.jpg);
   background-repeat: repeat;
   background-size: cover;
-  width: 1200px;
+  width: 900px;
   height: 900px;
   opacity: 100%;
+  -webkit-text-stroke: 2px rgb(55, 246, 99);
+  border:#0ad8c7 solid 7px;
  }
 
 #heading2 {
   color: rgb(248, 153, 169);
     margin-left: -10px;
-    margin-top: -20px;
-    font-size: 75px;
+    margin-top: 120px;
+    font-size: 60px;
     font-family: 'Gemunu Libre', sans-serif;
     }
 
@@ -92,22 +101,20 @@
   }
 
   h2 {
-    -webkit-text-stroke: 2px rgb(84, 0, 92);
-    font-family: 'Suez One', serif;
-    color: rgb(123, 255, 106);
-    text-shadow: 0 0 5px rgb(31, 82, 105), 0 0 10px rgb(3, 58, 37), 0 0 15px #205961, 0 0 20px #1012b8, 0 0 25px #024d4d, 0 0 30px #052753d2, 0 0 35px #0e4953;
+    font-family: 'Gemunu Libre', sans-serif;
   }
  
  .location-title {
-margin-top: -50px;
+margin-top: -10px;
 width: 350px;
+padding-bottom: -50px;
  }
  
 
   #location {
     position: absolute;
     left: 720px;
-    top: 249px;
+    top: 99px;
     margin-top: 110px;
     padding-top: 25px;
     margin-left: -10px;
@@ -121,33 +128,25 @@ width: 350px;
 #weather {
   position: absolute;
   left: -287px;
-  top: 375px;
+  top: 225px;
 }
   #search-bar {
     position: absolute;
-    left: 327px;
-    top: 370px;
-    width: 694px;
-    height: 60px;
+    left: 442px;
+    top: 372px;
+    width: 530px;
+    height: 58px;
     box-shadow: 1px 1px 1px rgb(31, 82, 105), 0 0 1px rgb(3, 58, 37), 0 0 1px #205961, 0 0 20px #1012b8, 0 0 2px #024d4d, 0 0 30px #052753d2, 0 0 35px #0e4953;
 
   }
 
-  .white-lotus {
-    width: 200px;
-    height: 200px;
-    position: absolute; 
-    left: 890px;
-    top: 70px;
-    -webkit-text-stroke: 1px rgb(255, 0, 0);
-    
-  }
+
 
   #search-button {
     position: absolute; 
-    left: 1027px;
+    left: 981px;
     top: 372px;
-    width: 150px;
+    width: 110px;
     height: 58px;
     box-shadow: 1px 1px 1px rgb(31, 82, 105), 0 0 1px rgb(3, 58, 37), 0 0 1px #205961, 0 0 20px #1012b8, 0 0 2px #024d4d, 0 0 30px #052753d2, 0 0 35px #0e4953;
 
@@ -155,11 +154,12 @@ width: 350px;
 
   label {
     position: absolute;
-    top: 196px;
-    left: 370px;
+    top: 256px;
+    left: 442px;
     margin-bottom: 5px;
-    font-size: 110px;
-    font-family: 'Katibeh', cursive;
+    font-size: 60px;
+    
+    font-family: 'Permanent Marker', cursive;
     color:rgb(100, 228, 74);
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     text-shadow: 0 0 5px rgb(31, 82, 105), 0 0 10px rgb(3, 58, 37), 0 0 15px #205961, 0 0 20px #1012b8, 0 0 25px #024d4d, 0 0 30px #052753d2, 0 0 35px #0e4953;

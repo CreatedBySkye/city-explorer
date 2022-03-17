@@ -1,11 +1,11 @@
-
+require('dotenv').config()
 const express = require("express");
 const app = express();
 const axios = require("axios");
-const PORT = process.env.PORT || 3002
+const PORT = process.env.PORT || 8000
 
 const cors = require("cors");
-require('dotenv').config()
+
 
 app.use(cors());
 
@@ -25,7 +25,7 @@ app.get("/weather", async (req, res) => {
 
 
 app.listen(`${process.env.PORT}`, () => {
-  console.log(`listening on port ${process.env.PORT}`);
+  console.log(`listening on port ${PORT}`);
 });
 
 

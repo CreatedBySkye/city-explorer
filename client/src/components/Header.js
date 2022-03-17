@@ -10,7 +10,7 @@ render() {
     
      
         <div className="header"><h1 id="header">
-        City Explorer</h1> <img src={image} alt="white-lotus" className="white-lotus"></img></div>
+        City Explorer</h1></div>
         </div>
            ) 
         }
